@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SalesDbLib.Controllers;
+using System;
 
 namespace EF_Tutorial_CodeFirst
 {
@@ -6,7 +7,8 @@ namespace EF_Tutorial_CodeFirst
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var custCtrl = new CustomersController();
+            var customers = custCtrl.GetAll();
         }
     }
 }

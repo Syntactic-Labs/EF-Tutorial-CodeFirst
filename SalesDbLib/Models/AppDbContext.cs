@@ -11,7 +11,8 @@ namespace SalesDbLib.Models
     {
         //DbSets go here
         public virtual DbSet<Customer> Customers { get; set; }
-
+        public virtual DbSet<Order> Orders { get; set; }
+        //fluent api
         protected override void OnModelCreating(ModelBuilder builder)
         {   //entity specifies what you are doing your fluent api on
             builder.Entity<Customer>(e =>
@@ -22,7 +23,7 @@ namespace SalesDbLib.Models
             });
         }
 
-
+        //setting up AppDbContext
         public AppDbContext() { }
         public AppDbContext(DbContextOptions<AppDbContext> options) 
             : base(options)
