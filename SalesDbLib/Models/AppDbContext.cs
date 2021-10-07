@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SalesDbLib.Models
-{
+{                              //DbContext is a generic method
     public class AppDbContext : DbContext
     {
         //DbSets go here
