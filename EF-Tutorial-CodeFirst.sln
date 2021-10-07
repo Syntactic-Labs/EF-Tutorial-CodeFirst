@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF-Tutorial-CodeFirst", "EF-Tutorial-CodeFirst\EF-Tutorial-CodeFirst.csproj", "{D7ED2033-F65E-43B0-B363-3DC29A606316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesDbLib", "SalesDbLib\SalesDbLib.csproj", "{B9442AE9-C3BE-4517-827F-741D0760DD69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7ED2033-F65E-43B0-B363-3DC29A606316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7ED2033-F65E-43B0-B363-3DC29A606316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7ED2033-F65E-43B0-B363-3DC29A606316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7ED2033-F65E-43B0-B363-3DC29A606316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9442AE9-C3BE-4517-827F-741D0760DD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9442AE9-C3BE-4517-827F-741D0760DD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9442AE9-C3BE-4517-827F-741D0760DD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9442AE9-C3BE-4517-827F-741D0760DD69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A3EB7C9-F053-449F-B5EB-B05DEDEEF986}
+	EndGlobalSection
+EndGlobal
